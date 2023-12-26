@@ -3,11 +3,16 @@
     padding: 0;
     box-sizing: border-box;
     font-family: serif;
+    color: #222;
 }
-body{
+.container{
+    width: 100%;
     background: #222;
     position: relative;
-    padding: 5px;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
 }
 .logo{
     position: absolute;
@@ -17,10 +22,9 @@ body{
 }
 .app{
     width: 90%;
-    max-width: 700px;
+    max-width: 600px;
     background: #fff;
     padding: 30px;
-    margin: 100px auto 0;
     border-radius: 10px;
 }
 .app h1{
@@ -37,10 +41,10 @@ body{
 .btn{
     margin: 25px 0;
     display: block;
-    padding: 10px;
+    padding: 12px 10px;
     width: 100%;
     text-align: left;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 600;
     background: #fff;
     outline: none;
@@ -49,14 +53,13 @@ body{
     transition: 0.3s;
 }
 .btn:hover:not([disabled]){
-    background: #555;
-    color: #fff;
+    background: rgba(0, 0, 0, 0.1);
 }
 .btn:disabled{
     cursor: no-drop;
 }
 #next-button{
-    padding: 10px;
+    padding: 15px;
     width: 160px;
     outline: none;
     border: none;
@@ -66,10 +69,11 @@ body{
     display: none;
     color: #fff;
     font-size: 15px;
+    font-weight: 600;
 }
 .correct{
-    background: #00f100;
+    background: rgba(0, 255, 0, 0.5);
 }
 .incorrect{
-    background: #ff004f;
+    background: rgba(255, 0, 0, 0.5);
 }

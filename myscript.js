@@ -34,6 +34,15 @@ const questions = [
             { text: "David", correct: false },
             { text: "Peter", correct: false },
         ]
+    },
+    {
+        question: "Who Built the Ark?",
+        answers: [
+            { text: "Noah", correct: true },
+            { text: "Samson", correct: false },
+            { text: "David", correct: false },
+            { text: "Judah", correct: false },
+        ]
     }
 ];
 
