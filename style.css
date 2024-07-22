@@ -6,7 +6,7 @@
 }
 .container{
     width: 100%;
-    background: #1f2b37;
+    background: #181818;
     position: relative;
     display: flex;
     height: 100vh;
@@ -17,7 +17,7 @@
     position: absolute;
     top: 2%;
     left: 2%;
-    width: 100px;
+    width: 35px;
 }
 .app{
     width: 90%;
@@ -64,7 +64,7 @@
     outline: none;
     border: none;
     border-radius: 5px;
-    background: #4f76f6;
+    background: #6660ff;
     margin: 0 auto 20px;
     display: none;
     color: #fff;
